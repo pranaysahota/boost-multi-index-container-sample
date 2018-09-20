@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pranay/cpp-workspace/boost-multi-index/src/boost-multi-index.cpp
+iostream
+-
+string
+-
+functional
+-
+boost/multi_index_container.hpp
+-
+boost/multi_index/ordered_index.hpp
+-
+boost/multi_index/member.hpp
+-
+boost/multi_index/composite_key.hpp
+-
+
